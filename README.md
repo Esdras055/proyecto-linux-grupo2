@@ -27,29 +27,23 @@ Implementación de un servidor Linux automatizado mediante el uso de tecnología
 🗂️Estructura del Proyecto
 
 
+✅ Fases Implementadas
 
+✅ Fase 1: Preparación del Entorno Servidor
+- Configuración del hostname: `servidor-grupo2`
+- Creación de usuarios: `adminsys`, `técnico`, `visitante`
+- Creación de grupos: `soporte`, `web`
+- Estructura de directorios en `/proyecto/`
+- Asignación de permisos con herencia de grupo
 
+✅ Fase 2: Automatización y Monitoreo
+- Script `reporte_sistema.sh` en `/proyecto/scripts/`
+- Configuración de tarea cron cada 30 minutos
+- Logs automáticos en `/var/log/proyecto/reporte_sistema.log`
+- Monitoreo de: fecha/hora, usuarios, disco, RAM, contenedores Docker
 
-
-
-\##Fases Implementados
-
-### Fase 1: Preparacion del entorno del servidor
-
-* configuracion del hostname: 'servidor-grupo2'
-* crecacion de usuarios: 'adminsys', 'tecnico', 'visitante'
-* cracion de grupos: 'soporte', 'web'
-* Estructura de directorios en '/proyecto/'
-* Asignacion de permisos
-
-### Fase 2: Automaticion y monitoreo
-
-* Script 'reporte\_sistema.sh' en '/proyecto/scripts/'
-* Configuracion de tarea cron cada 30 min
-* Logs en '/var/log/proyecto/reporte\_sistema.log'
-
-## Fase 3: Control de versiones
-
-* Repositorio Git inicializado en '/proyecto/'
-* Repositorio remoto en Github: 'proyecto-linux-group2'
-* Este archivo README.md
+✅ Fase 3: Control de Versiones
+- Repositorio Git inicializado en `/proyecto/`
+- Repositorio remoto en GitHub: `proyecto-linux-group2`
+- Configuración de usuarios y permisos Git
+- Documentación completa en README.md
