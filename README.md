@@ -44,6 +44,14 @@ Implementación de un servidor Linux automatizado mediante el uso de tecnología
 - Configuración de usuarios y permisos Git
 - Documentación completa en README.md
 
+✅ Fase 4: Docker
+
+- Instalación y configuración de Docker
+- Usuarios `adminsys` y `tecnico` agregados al grupo docker
+- Verificación con contenedor `hello-world`
+- Servicio Docker habilitado e iniciado automáticamente
+
+
 ✅ Fase 5: Servidor Web Containerizado
 
 - Archivo index.html personalizado en /proyecto/web/
